@@ -1,0 +1,15 @@
+<web-app>
+<servlet>
+<servlet-name>Account</servlet-name>
+<servlet-class>com.nt.servlet.BankServlet</servlet-class>
+</servlet>
+<servlet-mapping> 
+<servlet-name>Account</servlet-name>
+<url-pattern>/accounturl</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+<welcome-file>input.html</welcome-file>
+</welcome-file-list>
+
+
+</web-app>
