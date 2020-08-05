@@ -19,7 +19,7 @@ public class BankServlet extends HttpServlet{
 		balance=Integer.parseInt(req.getParameter("Amount"));
 	if(balance>=500&&age>=18){
 		pw.println("<h1 style='color:green;text-align:center'>Mr. " + name + " You Are Eligible For Opening Account</h1>");
-		
+		//varunreddykannegari
 	}
 	else {
 		pw.println("<h1 style='color:red;text-align:center'>Mr. " + name + " You Aren't Eligible For Opening Account</h1>");
